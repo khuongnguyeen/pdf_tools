@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="viewColor">#27000000</color>
+    <color name="mainColorWhite">#ffffff</color>
+    <color name="maiColorBlack">#8D000000</color>
+    <color name="maiColorPrimary">#8D0E0E0E</color>
+    <color name="textColor">#C6000000</color>
+    <color name="textColorLight">#7C7979</color>
+    <color name="textColorDark">#414141</color>
+    <color name="colorA">#E600755A</color>
+    <color name="colorBG">#E600755a</color>
+    <color name="colorCV">#F2BEF3C5</color>
+    <color name="colorDarkerGray">#004324</color>
+    <color name="colorNameOverlay">#ff5f5f</color>
+    <color name="colorDarkGreen">#4CAF50</color>
+    <color name="colorSelectedPDFs">#005353</color>
+    <color name="colorView">#E600755A</color>
+    <color name="colorBB">#74000000</color>
+    <color name="colorGR">#44d0b1</color>
+    <color name="bgBanner">#DDDCDC</color>
+    <color name="bgmain">#505050</color>
+    <color name="adText">#FFFFFF</color>
+
+    <color name="colorBackground">#ffffff</color>
+
+    <color name="colorTextDark">#ffffff</color>
+
+    <!-- THEME LIGHT -->
+    <color name="colorPrimary">#00755A</color>
+    <color name="colorPrimaryDark">#FF00755a</color>
+    <color name="colorAccent">#E600755A</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextSize">#747474</color>
+    <color name="colorTab">#FFFFFF</color>
+    <color name="colorPrimaryOrganize">#CCCCCC</color>
+    <color name="colorLargeAds">#FAFAFA</color>
+    <color name="colorLargeAdsText">#111111</color>
+    <color name="adSmallBackground">#EEEEEE</color>
+    <color name="adTextLight">#161616</color>
+    <color name="adDescriptionLight">#3D3D3D</color>
+    <color name="adButton">#E0E0E0</color>
+    <color name="adButtonBorder">#FFF0F0F0</color>
+    <color name="adButtonText">#424242</color>
+    <color name="readBackground">#868686</color>
+
+    <!-- THEME DARK -->
+    <color name="colorPrimaryDarkMod">#000000</color>
+    <color name="colorPrimaryDarkDarkMod">#0F0F0F</color>
+    <color name="colorAccentDarkMod">#0C0C0C</color>
+    <color name="colorTextDarkMod">#A2A2A2</color>
+    <color name="colorTextSizeDarkMod">#5F5F5F</color>
+    <color name="colorTabDarkMod">#181818</color>
+    <color name="colorPrimaryOrganizeDarkMod">#757575</color>
+    <color name="colorLargeAdsDark">#0C0C0C</color>
+    <color name="colorLargeAdsTextDark">#ffffff</color>
+    <color name="adSmallBackgroundDark">#222222</color>
+    <color name="adTextDark">#BBBBBB</color>
+    <color name="adDescriptionDark">#5A5A5A</color>
+    <color name="adButtonDark">#494949</color>
+    <color name="adButtonBorderDark">#BC272727</color>
+    <color name="adButtonTextDark">#868686</color>
+    <color name="readBackgroundDark">#131313</color>
+
+    <color name="blue">#ff59a9ff</color>
+    <color name="orange">#ffff900d</color>l
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+
+<!--    design UI-->
+    <color name="ui_red">#ff3131</color>
+    <color name="ui_pink">#ffe3e3</color>
+    <color name="ui_gray_400">#d1d3d9</color>
+    <color name="ui_gray">#919191</color>
+    <color name="ui_bg">#f2f3f8</color>
+    <color name="ui_66">#666666</color>
+    <color name="ui_black">#000000</color>
+    <color name="ui_white">#ffffff</color>
+    <color name="ui_color_button_cam">#1e1e1e</color>
+    <color name="ui_blur">#401E1E1E</color>
+
+    <color name="color_button">#3390ff</color>
+
+
+</resources>

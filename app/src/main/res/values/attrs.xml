@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCardView">
+        <attr name="option_text" format="string"/>
+        <attr name="option_icon" format="integer"/>
+    </declare-styleable>
+    <attr name="navBackground" format="reference"/>
+    <attr name="primaryTextColor" format="reference"/>
+    <attr name="primaryTextSizeColor" format="reference"/>
+    <attr name="primaryTabColor" format="reference"/>
+    <attr name="primaryOrganizeColor" format="reference"/>
+    <attr name="navigationColor" format="reference"/>
+    <attr name="navigationText" format="reference"/>
+    <attr name="navigationTextSelected" format="reference"/>
+    <attr name="icon" format="reference"/>
+    <attr name="adSmallBg" format="reference"/>
+    <attr name="adButton" format="reference"/>
+    <attr name="adButtonBorder" format="reference"/>
+    <attr name="adButtonText" format="reference"/>
+    <attr name="adText" format="reference"/>
+    <attr name="largeAdText" format="reference"/>
+    <attr name="adDescription" format="reference"/>
+    <attr name="adLargeAds" format="reference"/>
+    <attr name="readBackground" format="reference"/>
+    <attr name="rectSelector" format="reference" />
+</resources>

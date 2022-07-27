@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="applovin_sdk_key" translatable="false">TndDWndTkyTTcxDyePU40iwlezff9xVe_dNEatx6mFG2N3hkezhZmaJfWBIXLUw8DTLzffBewS7TMLsIB1_uSd</string>
+
+    <string name="applovin_interstitial_main_ids" translatable="false">70ac52e143187019</string>
+
+
+    <string name="applovin_small_native_ids" translatable="false">4cdb9bda0444bad2</string>
+    <string name="applovin_small_native_small_ids" translatable="false">90a297c1d9c0774c</string>
+
+
+    <string name="applovin_banner_ids" translatable="false">961fadf6ae915802</string>
+
+
+<!--    - Admob App ID : ca-app-pub-2816863202684796~7466931400-->
+<!--    - Applovin SDK Key : TndDWndTkyTTcxDyePU40iwlezff9xVe_dNEatx6mFG2N3hkezhZmaJfWBIXLUw8DTLzffBewS7TMLsIB1_uSd-->
+<!--    - Applovin fullscreen : 70ac52e143187019-->
+<!--    - Applovin banner : 961fadf6ae915802-->
+<!--    - Applovin native medium : 4cdb9bda0444bad2-->
+<!--    - APplovin native manual : 90a297c1d9c0774c-->
+
+
+</resources>
+

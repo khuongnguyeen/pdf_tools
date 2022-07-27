@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kochava.base:tracker:3.10.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e875f5a0e568154c94c2658188b0694d/transformed/jetified-tracker-3.10.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aec3f68d0fb9dbc8dbb6e01acb21abc5/jetified-tracker-3.10.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e875f5a0e568154c94c2658188b0694d/transformed/jetified-tracker-3.10.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e875f5a0e568154c94c2658188b0694d/transformed/jetified-tracker-3.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e875f5a0e568154c94c2658188b0694d/transformed/jetified-tracker-3.10.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kochava.base/tracker/3.10.1/3e2c20bcf86beb55dc1a040a7c84165e7c2a974c/tracker-3.10.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kochava.base/tracker/3.10.1/de32048cd627c65df24a1e759e9e9681417d436a/tracker-3.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

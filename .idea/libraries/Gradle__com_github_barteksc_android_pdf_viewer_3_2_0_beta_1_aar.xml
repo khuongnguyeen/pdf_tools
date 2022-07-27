@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.barteksc:android-pdf-viewer:3.2.0-beta.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2f5c59b0e18761b719b5bfd6325e5a6d/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2f5c59b0e18761b719b5bfd6325e5a6d/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2f5c59b0e18761b719b5bfd6325e5a6d/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/606d504547f2bcbbd00f619a2b64c58c/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/606d504547f2bcbbd00f619a2b64c58c/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/606d504547f2bcbbd00f619a2b64c58c/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/08f39ededc99ff9427eafda77d0243e7/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08f39ededc99ff9427eafda77d0243e7/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08f39ededc99ff9427eafda77d0243e7/transformed/jetified-android-pdf-viewer-3.2.0-beta.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barteksc/android-pdf-viewer/3.2.0-beta.1/8322e12dd5d5c9d5f83c9f16ebf0c5357c30f879/android-pdf-viewer-3.2.0-beta.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barteksc/android-pdf-viewer/3.2.0-beta.1/ac07c6cc1b51d315622c04347d7fccfbc5c982ff/android-pdf-viewer-3.2.0-beta.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

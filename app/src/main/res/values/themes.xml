@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme.Normal.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="primaryTextColor">@color/colorText</item>
+        <item name="primaryTextSizeColor">@color/colorTextSize</item>
+        <item name="icon">@drawable/star_red</item>
+        <item name="primaryTabColor">@color/colorTab</item>
+        <item name="primaryOrganizeColor">@color/colorPrimaryOrganize</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="largeAdText">@color/colorLargeAdsText</item>
+        <item name="adSmallBg">@color/adSmallBackground</item>
+        <item name="adText">@color/adTextLight</item>
+        <item name="adDescription">@color/adDescriptionLight</item>
+        <item name="adLargeAds">@color/colorLargeAds</item>
+        <item name="adButton">@color/adButton</item>
+        <item name="adButtonText">@color/adButtonText</item>
+        <item name="adButtonBorder">@color/adButtonBorder</item>
+        <item name="navigationText">@color/colorText</item>
+        <item name="navigationTextSelected">@color/colorPrimary</item>
+        <item name="navBackground">@color/colorTab</item>
+        <item name="readBackground">@color/readBackground</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+    <style name="AppTheme.Normal.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="primaryTextColor">@color/colorText</item>
+        <item name="primaryTextSizeColor">@color/colorTextSize</item>
+        <item name="icon">@drawable/ic_icon_pdf</item>
+        <item name="primaryTabColor">@color/colorTab</item>
+        <item name="primaryOrganizeColor">@color/colorPrimaryOrganize</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="largeAdText">@color/colorLargeAdsText</item>
+        <item name="adSmallBg">@color/adSmallBackground</item>
+        <item name="adText">@color/adTextLight</item>
+        <item name="adDescription">@color/adDescriptionLight</item>
+        <item name="adLargeAds">@color/colorLargeAds</item>
+        <item name="adButton">@color/adButton</item>
+        <item name="adButtonText">@color/adButtonText</item>
+        <item name="adButtonBorder">@color/adButtonBorder</item>
+        <item name="navigationText">@color/colorText</item>
+        <item name="navigationTextSelected">@color/colorPrimary</item>
+        <item name="navBackground">@color/colorTab</item>
+        <item name="readBackground">@color/readBackground</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+    <style name="AppTheme.Dark.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDarkMod</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDarkMod</item>
+        <item name="colorAccent">@color/colorAccentDarkMod</item>
+        <item name="primaryTextColor">@color/colorTextDarkMod</item>
+        <item name="primaryTextSizeColor">@color/colorTextSizeDarkMod</item>
+        <item name="icon">@drawable/ic_pdf</item>
+        <item name="primaryTabColor">@color/colorTabDarkMod</item>
+        <item name="primaryOrganizeColor">@color/colorPrimaryOrganizeDarkMod</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="adText">@color/adTextDark</item>
+        <item name="adSmallBg">@color/adSmallBackgroundDark</item>
+        <item name="largeAdText">@color/colorLargeAdsTextDark</item>
+        <item name="adDescription">@color/adDescriptionDark</item>
+        <item name="adLargeAds">@color/colorLargeAdsDark</item>
+        <item name="adButton">@color/adButtonDark</item>
+        <item name="adButtonText">@color/adButtonTextDark</item>
+        <item name="adButtonBorder">@color/adButtonBorderDark</item>
+        <item name="navigationText">@color/colorTextDarkMod</item>
+        <item name="navigationTextSelected">@color/colorLargeAdsTextDark</item>
+        <item name="navBackground">@color/colorTabDarkMod</item>
+        <item name="readBackground">@color/readBackgroundDark</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+    <style name="AppTheme.Dark.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDarkMod</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDarkMod</item>
+        <item name="colorAccent">@color/colorAccentDarkMod</item>
+        <item name="primaryTextColor">@color/colorTextDarkMod</item>
+        <item name="primaryTextSizeColor">@color/colorTextSizeDarkMod</item>
+        <item name="icon">@drawable/ic_pdf</item>
+        <item name="primaryTabColor">@color/colorTabDarkMod</item>
+        <item name="primaryOrganizeColor">@color/colorPrimaryOrganizeDarkMod</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="adText">@color/adTextDark</item>
+        <item name="adSmallBg">@color/adSmallBackgroundDark</item>
+        <item name="largeAdText">@color/colorLargeAdsTextDark</item>
+        <item name="adDescription">@color/adDescriptionDark</item>
+        <item name="adLargeAds">@color/colorLargeAdsDark</item>
+        <item name="adButton">@color/adButtonDark</item>
+        <item name="adButtonText">@color/adButtonTextDark</item>
+        <item name="adButtonBorder">@color/adButtonBorderDark</item>
+        <item name="navigationText">@color/colorTextDarkMod</item>
+        <item name="navigationTextSelected">@color/colorLargeAdsTextDark</item>
+        <item name="navBackground">@color/colorTabDarkMod</item>
+        <item name="readBackground">@color/readBackgroundDark</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorTextSize</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+</resources>

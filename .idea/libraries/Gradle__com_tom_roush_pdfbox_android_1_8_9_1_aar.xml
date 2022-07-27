@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tom_roush:pdfbox-android:1.8.9.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63615019764dd71eebbf9d293c0502b7/jetified-pdfbox-android-1.8.9.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0b0de03ca3b06da5529f2e198335954/transformed/jetified-pdfbox-android-1.8.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b0b0de03ca3b06da5529f2e198335954/transformed/jetified-pdfbox-android-1.8.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0b0de03ca3b06da5529f2e198335954/transformed/jetified-pdfbox-android-1.8.9.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tom_roush/pdfbox-android/1.8.9.1/12592545a5f4bb40514c1b3260b91405967e0844/pdfbox-android-1.8.9.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tom_roush/pdfbox-android/1.8.9.1/8f11b10978d896653943c5e0c22fa8545682c81e/pdfbox-android-1.8.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

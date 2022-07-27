@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.document.pdfscanner">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name="com.document.pdfscanner.activity.OrganizeImagesActivity"
+            android:screenOrientation="portrait"
+           />
+        <activity
+            android:name="com.document.pdfscanner.activity.Camera2Activity"
+            android:screenOrientation="portrait"
+           />
+        <activity
+            android:name="com.document.pdfscanner.activity.ViewFileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.document.pdfscanner.activity.SelectImagesActivity"
+            android:screenOrientation="portrait"
+           />
+        <activity
+            android:name="com.document.pdfscanner.activity.OrganizeMergePDFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.document.pdfscanner.activity.ViewImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.document.pdfscanner.activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.document.pdfscanner.activity.SelectPDFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.document.pdfscanner.activity.ConvertPdf"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.document.pdfscanner.activity.ReadPDFActivity"
+            android:theme="@style/AppTheme.NoActionBar9"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/pdf" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.EditViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.RecentFileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DoneCameraPdfActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScannerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.document.pdfscanner.activity.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:noHistory="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3592666561057448~7652717637" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <meta-data
+            android:name="onesignal_app_id"
+            android:value="@string/ONESIGNAL_APP_ID"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="onesignal_google_project_number"
+            android:value="REMOTE"
+            tools:replace="android:value" />
+
+
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="@string/applovin_sdk_key" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/rd_fullScreen"
+        android:title="@string/mn_rd_full_screen"/>
+    <item android:id="@+id/rd_shareFile"
+        android:title="@string/mn_rd_file_sharing"/>
+
+</menu>

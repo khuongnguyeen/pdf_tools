@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">&#128209; Documents Scanner</string>
+    <string name="title_tab_all_file">All F iles</string>
+    <string name="title_tab_recent_file">Recent</string>
+    <string name="search_title">Search</string>
+    <string name="settings_title">Setting</string>
+    <string name="text_evaluate">Rate And Review Us !!</string>
+    <string name="intro">About</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="notice">Third Party Notice</string>
+    <string name="zoom_mode">Hide Zoom Controls</string>
+    <string name="swipe_mode">Swipe Page by Page</string>
+    <string name="scroll_mode">Horizoltal Scroll</string>
+    <string name="buy_advertising">Remove Ad</string>
+    <string name="grid_mode">Grid View</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="share_app">Share App</string>
+    <string name="other_application">More Apps</string>
+    <string name="mn_rd_full_screen">Full Screen</string>
+    <string name="mn_rd_file_sharing">File sharing</string>
+    <string name="query_hint">Search</string>
+    <string name="txt_n">\" Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at      http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\"</string>
+    <string name="txt_roomDB">Roomdatabase Coppyright 2019 Google , Inc.</string>
+    <string name="txt_m">Android PdfViewer Coppyright 2017 Bartosz Schiller</string>
+    <string name="delete_recent_dialog">delete from recent files?</string>
+    <!--    <string name="version"> Phiên bản 1.5.0 "\nFrom Developer34 MobileApps" "\nTap trên Email để gửi đề xuất hoặc phản hồi Cảm ơn"</string>-->
+    <string name="version"> Version 1.0.0 "\nFrom FX Studio" "\nTap on Email to send suggestion or feedback.Thanks"</string>
+    <string name="email">app@adtrue.com</string>
+    <string name="exit">Click again to exit</string>
+    <string name="delete_file_success">delete File success</string>
+    <string name="error_not_found_file">Error not found File</string>
+    <string name="dialog_message_delete_file">Are you sure to delete</string>
+    <string name="rename_file">Rename Flie</string>
+    <string name="yes">YES</string>
+    <string name="cancel">CANCEL</string>
+    <string name="loading">... loading data ...</string>
+    <string name="ed_input_first">p#</string>
+    <string name="tv_display_first">1/2</string>
+    <string name="failed_low_memory">Fail low memory</string>
+    <string name="select">Select</string>
+    <string name="selected">Select</string>
+    <string name="open_file">Open File</string>
+    <string name="done">Done</string>
+    <string name="open_directory">Open directory</string>
+    <string name="splitting">Splitting</string>
+    <string name="tv_number_of_page">Number of pages in this file</string>
+    <string name="invalid_value">Error value Input</string>
+    <string name="merging">Merging</string>
+    <string name="drag_drop_to_organize_files">Drag and drop to organize files. Click on a file to delete</string>
+    <string name="organize_files">Organize Files</string>
+    <string name="remove">Remove</string>
+    <string name="at_least_two_files">You need at least two files to merge</string>
+    <string name="nav_close">Navigation Drawer Close</string>
+    <string name="nav_open">Navigation Drawer Open</string>
+    <string name="add_file">Add file</string>
+    <string name="select_file">Select file</string>
+    <string name="view_image">View Image</string>
+    <string name="password_protect_pdf_text">Password Protect PDF</string>
+    <string name="txt_pdf_tools">PDFTools</string>
+    <string name="split_pdf">Split PDF</string>
+    <string name="merge_pdf">Merge PDF</string>
+    <string name="extract_img">Extract Image</string>
+    <string name="extract_txt">Extract text</string>
+    <string name="img_to_pdf">Images to PDF</string>
+    <string name="pdf_to_img">PDF to Images</string>
+    <string name="compress_pdf">Compress PDF</string>
+    <string name="remove_duplicate_pages">Remove Ducalicate Pages</string>
+    <string name="tool">Tool PDF</string>
+    <string name="to">to</string>
+    <string name="pdf_tools">PDF Tools</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="ok">OK</string>
+    <string name="invalid_file_name">Error file name</string>
+    <string name="extracting">Extracting</string>
+    <string name="hundred_percent">100%</string>
+    <string name="image_quality">Image quality</string>
+    <string name="extract">EXTRACT</string>
+    <string name="compressing">Compressing</string>
+    <string name="reduced_from">reduced from</string>
+    <string name="file_protected_unprotect">The file is protected, please unprotect</string>
+    <string name="compress_lv">Compress Level</string>
+    <string name="compress">COMPRESS</string>
+    <string name="merge_failed">Merge failed</string>
+    <string name="converting">Converting</string>
+    <string name="select_at_least_one_image">Select at least one image</string>
+    <string name="drag_drop_to_organize">Drag and drop to organize pages. Click on a page to delete</string>
+    <string name="organize_pages">Organize Pages</string>
+    <string name="no_data_currently_available">No files have been viewed recently</string>
+    <string name="no_file">No files</string>
+    <string name="no_img">No images</string>
+    <string name="load_av">Loading AdView .....</string>
+<!--    <string name="new_data">You have just updated the new data</string>-->
+    <string name="new_data">updated data</string>
+    <string name="page">-Page</string>
+    <string name="page_to_image">Creating page image</string>
+    <string name="created">Created</string>
+    <string name="image_extracted">Image extracted</string>
+    <string name="invalid_number">Invalid number</string>
+    <string name="txt_grant_permission">You need to accept some essential permissions needed by Doc Manager to function properly.</string>
+    <string name="txt_grant_grant">GRANT</string>
+    <string name="txt_grant_exit">EXIT</string>
+    <string name="ok_label">OK</string>
+    <string name="error_label">Error</string>
+    <string name="photo_saved">Photo has been saved to Camera</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="flash">Flash</string>
+    <string name="title_activity_view_edit">ViewEditActivity</string>
+    <string name="next_page">&gt;</string>
+    <string name="previous_page">&lt;</string>
+    <string name="delete">Delete</string>
+    <string name="please_enter_a_name_for_the_pdf">Please enter a name for the PDF</string>
+    <string name="pdf">.pdf</string>
+    <string name="name">Name</string>
+    <string name="enter_name_for_pdf">Enter name for pdf</string>
+    <string name="submit">Submit</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="share">Share</string>
+    <string name="view">View</string>
+    <string name="a_draggable_corner">A draggable corner</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scanning">Scanning</string>
+    <string name="scan">Next</string>
+    <string name="cantCrop">Can\'t crop the image, change the points</string>
+    <string name="applying_filter">Loading ...</string>
+    <string name="low_memory">Low Memory</string>
+    <string name="low_memory_message">Your phone is low on memory, you may feel some lags while editing images.</string>
+    <string name="more">See more &#8230;</string>
+    <string name="finish_skip">Finish / Skip</string>
+    <string name="title_activity_p_d_f_view">IScan PDF Viewer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pdfmime">application/pdf</string>
+
+    <string name="ui_merge_pdf">Merge PDF</string>
+    <string name="ui_split_pdf">Split PDF</string>
+    <string name="ui_pdf_to_image">PDF to Image</string>
+    <string name="ui_image_to_pdf">Image to PDF</string>
+    <string name="ui_compress_pdf">Compress PDF</string>
+    <string name="ui_camera_scanner">Camera Scanner</string>
+    <string name="ui_extract_image">Extract Image</string>
+
+
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-3592666561057448/3713472627</string>
+    <string name="facebook_app_id">466634041674111</string>
+
+    <string name="facebook_client_token" translatable="false">3677a8d41cccf65f9671cc696e4de011</string>
+
+    <string name="ONESIGNAL_APP_ID">169ef7b5–de09-4bf3-8476-5a1a5877d422</string>
+    <string name="BANNER_ID">ca-app-pub-3592666561057448/2136860598</string>
+    <string name="Native_ID">ca-app-pub-3592666561057448/6036383632</string>
+    <string name="App_open_ads">ca-app-pub-3592666561057448/2611145496</string>
+    <string name="app_id">ca-app-pub-3592666561057448~7652717637</string>
+
+    <string name="show_more">Show more</string>
+
+
+
+</resources>

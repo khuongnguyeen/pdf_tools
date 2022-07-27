@@ -1,0 +1,12 @@
+pass: monsterstudio
+DocAlias
+
+DocScannerAlias
+pass: monsterstudio
+
+
+PdfScannerAlias
+pass: monsterstudio
+
+QrScannerAlias
+pass: monsterstudio

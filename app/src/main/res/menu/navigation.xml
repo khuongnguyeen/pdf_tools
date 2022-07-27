@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/all_files"
+        android:icon="@drawable/file"
+        android:title="@string/title_tab_all_file" />
+    <item
+        android:id="@+id/recent_file"
+        android:icon="@drawable/recent"
+        android:title="@string/title_tab_recent_file" />
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_marginTop="3dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="3dp"
+    app:cardElevation="@dimen/_5sdp"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/card"
+    app:cardBackgroundColor="@color/ui_white"
+    android:focusable="false"
+    card_view:cardUseCompatPadding="true"
+    android:focusableInTouchMode="false"
+    android:translationZ="2dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ct"
+        android:background="?attr/primaryTabColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/lo_img"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/item_image_pdf"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_item_pdf"
+                android:src="@drawable/ui_pdf_file_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:maxLines="2"
+            android:fontFamily="sans-serif"
+            android:text="@string/app_name"
+            android:textSize="@dimen/text_size_file_name"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ui_black"
+            app:layout_constraintStart_toEndOf="@id/lo_img"
+            app:layout_constraintEnd_toStartOf="@id/item_menu"
+            app:layout_constraintBottom_toTopOf="@+id/item_size"
+            app:layout_constraintLeft_toRightOf="@id/lo_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="@dimen/text_margin_top"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_file"
+            android:text="9.5k"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ui_black"
+            android:textStyle="normal"
+            app:layout_constraintRight_toLeftOf="@id/item_menu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/lo_img"
+            app:layout_constraintTop_toBottomOf="@id/item_name" />
+
+        <ImageView
+            android:id="@+id/item_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginRight="8dp"
+            android:padding="@dimen/menu_icon_padding"
+            android:src="@drawable/ic_menu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

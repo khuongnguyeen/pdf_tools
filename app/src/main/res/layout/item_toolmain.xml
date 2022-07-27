@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/ui_bg"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/merge_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/split_pdf"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="@dimen/button_main_size"
+                android:layout_height="@dimen/button_main_size"
+                android:background="@drawable/bg_item_main"
+                android:layout_gravity="center"
+                android:src="@drawable/ui_merge" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_merge_pdf"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size"
+                app:layout_constraintEnd_toEndOf="@+id/merge_pdf"
+                app:layout_constraintStart_toStartOf="@+id/merge_pdf"
+                app:layout_constraintTop_toBottomOf="@+id/merge_pdf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/split_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/pdf_ti_image"
+            app:layout_constraintStart_toEndOf="@+id/merge_pdf"
+            app:layout_constraintTop_toTopOf="@+id/merge_pdf">
+
+            <ImageView
+                android:layout_width="@dimen/button_main_size"
+                android:background="@drawable/bg_item_main"
+                android:layout_height="@dimen/button_main_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ui_parallel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_split_pdf"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size"
+                app:layout_constraintEnd_toEndOf="@+id/merge_pdf"
+                app:layout_constraintStart_toStartOf="@+id/merge_pdf"
+                app:layout_constraintTop_toBottomOf="@+id/merge_pdf" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pdf_ti_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/image_to_pdf"
+            app:layout_constraintStart_toEndOf="@+id/split_pdf"
+            app:layout_constraintTop_toTopOf="@+id/merge_pdf">
+
+            <ImageView
+
+                android:layout_width="@dimen/button_main_size"
+                android:layout_height="@dimen/button_main_size"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_item_main"
+                android:src="@drawable/ui_pdf_file_wiht" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_pdf_to_image"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_to_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/pdf_ti_image"
+            app:layout_constraintTop_toTopOf="@+id/merge_pdf">
+
+            <ImageView
+                android:background="@drawable/bg_item_main"
+                android:layout_width="@dimen/button_main_size"
+                android:layout_height="@dimen/button_main_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ui_image_bor_white" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_image_to_pdf"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/compress_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/camera_scanner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/merge_pdf">
+
+            <ImageView
+                android:background="@drawable/bg_item_main"
+                android:layout_width="@dimen/button_main_size"
+                android:layout_height="@dimen/button_main_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ui_focus" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_compress_pdf"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/camera_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/extra_image"
+            app:layout_constraintStart_toEndOf="@+id/compress_pdf"
+            app:layout_constraintTop_toTopOf="@+id/compress_pdf">
+
+            <ImageView
+                android:background="@drawable/bg_item_main"
+                android:layout_width="@dimen/button_main_size"
+                android:layout_height="@dimen/button_main_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ui_scan" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_camera_scanner"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/extra_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/camera_scanner"
+            app:layout_constraintTop_toTopOf="@+id/camera_scanner">
+
+            <ImageView
+                android:background="@drawable/bg_item_main"
+                android:layout_width="@dimen/button_main_size"
+                android:layout_height="@dimen/button_main_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ui_extract" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_main"
+                android:text="@string/ui_extract_image"
+                android:textColor="@color/ui_black"
+                android:textSize="@dimen/text_main_size" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

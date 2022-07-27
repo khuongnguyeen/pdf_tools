@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651877923426",
+    "project_id": "document-scan-836cd",
+    "storage_bucket": "document-scan-836cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651877923426:android:0424df3a8b4e0ec0a5ef3b",
+        "android_client_info": {
+          "package_name": "io.documentscanner.pdfreader.pdfscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651877923426-fe5026hoa2upmps1cv34f9jsbus0ou6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCii2idPTPwbPKBb2aQztreE7j2YMcVJJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651877923426-fe5026hoa2upmps1cv34f9jsbus0ou6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,198 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/ui_red</item>
+        <item name="colorPrimaryDark">@color/ui_red</item>
+        <item name="colorAccent">@color/ui_red</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="actionModeStyle">@style/CustomActionModeStyle</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:navigationBarColor">@color/ui_white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+    </style>
+
+
+
+
+    <style name="AppTheme.NoActionBar9" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/ui_red</item>
+        <item name="colorPrimaryDark">@color/ui_red</item>
+        <item name="colorAccent">@color/ui_red</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/CustomActionModeStyle</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:navigationBarColor">@color/ui_red</item>
+    </style>
+
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:background">@color/ui_white</item>
+    </style>
+
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ui_black</item>
+    </style>
+
+
+    <style name="CustomActionModeStyle" parent="Base.Widget.AppCompat.ActionMode">
+        <item name="background">@color/ui_white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ui_color_button_cam</item>
+        <item name="colorPrimaryDark">@color/ui_color_button_cam</item>
+        <item name="colorAccent">@color/ui_red</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/adButtonBorder</item>
+        <item name="colorPrimaryDark">@color/adButtonBorder</item>
+        <item name="colorAccent">@color/ui_red</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="actionModeStyle">@style/CustomActionModeStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+
+    <style name="WindowAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/ui_bg</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/MyAlertDialogButtonStyle</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="MyDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDarkDarkMod</item>
+        <item name="colorPrimaryDark">@color/colorAccentDarkMod</item>
+        <item name="colorAccent">@color/colorA</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <!--This line changes the color of text in Toolbar-->
+        <item name="android:textColorPrimary">#ffffff</item>
+        <!--This line changes the color of icons in toolbar (back, overflow menu icons)-->
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar">
+        <item name="colorAccent">@color/colorBG</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+    <style name="AppTheme.ProgressBar2">
+        <item name="colorAccent">@color/ui_red</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+    <style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/my_spinner_text_color</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <!-- active thumb & track color (30% transparency) #46bdbf-->
+        <item name="colorControlActivated">#FFC107</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <!-- inactive track color (30% transparency) #42221f1f-->
+        <item name="android:colorForeground">#137DE9</item>
+    </style>
+
+    <style name="MyProgressBar" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/colorA</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="ProgressBar" parent="@android:style/Widget.Holo.ProgressBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlayDark">
+        <item name="windowActionBar">false</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay"></style>
+
+
+    <color name="my_spinner_text_color">#ffffff</color>
+
+    <style name="CustomDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="textColorAlertDialogListItem">#000000</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorHighlight">#000000</item>
+        <item name="android:textColorAlertDialogListItem">#000000</item>
+
+        <item name="colorAccent">@color/ui_red</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <item name="android:backgroundTint">@color/ui_white</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+</resources>

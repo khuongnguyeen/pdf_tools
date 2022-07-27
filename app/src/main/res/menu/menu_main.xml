@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings_title"/>
+    <item android:id="@+id/tool_pdf"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        android:title="@string/pdf_tools"/>
+    <group android:id="@+id/grp">
+        <item android:id="@+id/rate"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="@string/text_evaluate"/>
+<!--        <item android:id="@+id/other_applications"-->
+<!--            android:icon="@drawable/ic_devices_other_black_24dp"-->
+<!--            android:title="@string/other_application"/>-->
+        <item android:id="@+id/share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/share_app"/>
+<!--        <item android:id="@+id/buy_advertising"-->
+<!--            android:icon="@drawable/ic_shopping_cart_black_24dp"-->
+<!--            android:title="@string/buy_advertising"/>-->
+    </group>
+<!--    <item android:id="@+id/notice"-->
+<!--        android:icon="@drawable/ic_notifications_none_black_24dp"-->
+<!--        android:title="@string/notice"/>-->
+<!--    <item android:id="@+id/privacy_policy"-->
+<!--        android:icon="@drawable/ic_lock_black_24dp"-->
+<!--        android:title="@string/privacy_policy"/>-->
+</menu>

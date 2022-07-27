@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="compression_level">
+        <item>@string/low</item>
+        <item>@string/medium</item>
+        <item>@string/high</item>
+    </array>
+    <array name="image_directories">
+        <item>@string/all</item>
+        <item>@string/camera</item>
+        <item>@string/downloads</item>
+        <item>@string/pictures</item>
+    </array>
+    <array name="languages">
+        <item>English</item>
+        <item>Bengali</item>
+        <item>Indonesian</item>
+        <item>Russian</item>
+    </array>
+    <array name="languages_entry_keys">
+        <item>en</item>
+        <item>bn</item>
+        <item>in</item>
+        <item>ru</item>
+    </array>
+    <array name="splitting_options">
+        <item>@string/all_pages</item>
+        <item>@string/at_specified_page</item>
+        <item>@string/at_specified_range</item>
+    </array>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">Hight</string>
+    <string name="all">All</string>
+    <string name="camera">Camera</string>
+    <string name="downloads">Downloads</string>
+    <string name="pictures">Pictures</string>
+    <string name="whatsapp_images">whatsapp_images</string>
+    <string name="all_pages">All pages</string>
+    <string name="at_specified_page">At specidied page</string>
+    <string name="at_specified_range">At specified range</string>
+</resources>

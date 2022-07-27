@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="color_banner_office">#148DFA</color>
+    <color name="color_button_office">#148DFA</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#242424</color>
+    <color name="black_light">#4B4B4B</color>
+    <color name="black">#000000</color>
+    <color name="black_trans">#4F4B4B4B</color>
+    <color name="black_trans_create">#4FB1B1B1</color>
+
+    <color name="text">#242424</color>
+    <color name="text_search">#232323</color>
+
+    <color name="color_excel">#00A354</color>
+    <color name="colorPdf_EE4853">#EE4853</color>
+    <color name="colorPpt_EE4853">#FFA126</color>
+
+    <color name="color_mode_view">#5F6064</color>
+    <color name="color_text_white">#ffffffff</color>
+
+
+    <color name="colorWhite_ffffff">#ffffffff</color>
+    <color name="colorActive_1F4B6E">#97A1B4</color>
+    <color name="colorBlack_1F4B6E">#000000</color>
+    <color name="colorBlack_010101">#010101</color>
+    <color name="colorGray_BEC7D8">#BEC7D8</color>
+
+    <color name="colorWord_CDE6FB">#CDE6FB</color>
+    <color name="colorWordSelectedBorder_2392FF">#2392FF</color>
+
+    <color name="colorGray_FFAEAFB1">#EFF1F1</color>
+    <color name="colorWord_2392FF">#2392FF</color>
+    <color name="colorNoFileB1BECD">#97A1B4</color>
+
+    <color name="color_enable_tab">#148DFA</color>
+    <color name="color_disable_tab">#616161</color>
+    <color name="bg_create_file">#40000000</color>
+    <color name="color_line_main">#E0E0E0</color>
+    <color name="cancel_dialog">#F5F5F5</color>
+    <color name="color_line_office">#E0E0E0</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_bg_fail">#334E5B5E</color>
+    <color name="colorAds">#FF03875F</color>
+</resources>

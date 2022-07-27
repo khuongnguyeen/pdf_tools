@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kochava.base:tracker-network:3.10.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67255fbd611957e7de867d73a03fd068/jetified-tracker-network-3.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/87f0a59fc6ecaecde04575ac6e03f156/transformed/jetified-tracker-network-3.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/87f0a59fc6ecaecde04575ac6e03f156/transformed/jetified-tracker-network-3.10.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/87f0a59fc6ecaecde04575ac6e03f156/transformed/jetified-tracker-network-3.10.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kochava.base/tracker-network/3.10.1/e65c57682ad39d601603edb01687e087ef9252dc/tracker-network-3.10.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kochava.base/tracker-network/3.10.1/de32048cd627c65df24a1e759e9e9681417d436a/tracker-network-3.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
